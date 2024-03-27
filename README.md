@@ -27,22 +27,3 @@ How to run the Scikit SLIC implementation:
 		file name (default is "brandeis.jfif")
 		n_segments (number of segments used)
 		enforce_connectivity (default is true)	
-
-Task2:
-	Demo 1:
-
-	Open command prompt and enter python main.py demo1 -i samples/brandeis.jfif -a resnet152 -t layer4
-
-	Make sure the path is correct and it should run and the resulting images should end up in results folder 
-
-	To use other images adjust samples/brandeis.jfif
-
-	Demo 2:
-
-	Adjust the number in line 280 in main.py in grad-cam-pytorch-master to what classification id you want to use
-
-	Open command prompt and enter python main.py demo2 -i samples/brandeis.jfif
-
-	Make sure the path is correct and it should run and the resulting images should end up in results folder 
-
-	To use other images adjust samples/brandeis.jfif
